@@ -1,0 +1,67 @@
+# Resumo do Módulo 1 do Bootcamp Azure Essentials - DIO
+
+## 1. Introdução ao Azure Essentials com a Microsoft
+Neste módulo inicial, exploramos o **Microsoft Azure**, a plataforma de nuvem da Microsoft. Foram apresentados os principais serviços, incluindo computação, armazenamento e redes, e discutido como essas soluções podem auxiliar na gestão, implantação e escalabilidade de aplicativos na nuvem. Esta foi uma introdução essencial para entender os fundamentos da infraestrutura em nuvem e como gerenciar recursos de forma eficiente.
+
+## 2. Introdução à Computação em Nuvem
+Conhecemos os conceitos básicos da **computação em nuvem**, incluindo:
+- **Tipos de Nuvem**: pública, privada e híbrida.
+- **Modelos de Serviço**: 
+  - **IaaS (Infrastructure as a Service)**: Infraestrutura como Serviço.
+  - **PaaS (Platform as a Service)**: Plataforma como Serviço.
+  - **SaaS (Software as a Service)**: Software como Serviço.
+O módulo destacou como a nuvem oferece vantagens como escalabilidade, flexibilidade e redução de custos em comparação aos métodos tradicionais de TI.
+
+## 3. Introdução ao Versionamento de Código com Git e GitHub
+Aprendemos a usar o **Git**, uma ferramenta de controle de versão fundamental para gerenciar projetos de software. Também exploramos o **GitHub**, uma plataforma para hospedar repositórios Git e colaborar em projetos. Os tópicos abordados incluíram:
+- Criação de repositórios
+- Realização de commits
+- Trabalhar com branches
+- Colaboração através de **pull requests** e revisões de código
+
+## 4. Desafio: Contribuindo em um Projeto Open Source no GitHub
+No desafio prático, aplicamos o conhecimento adquirido sobre GitHub contribuindo para um projeto open source. Abordamos os seguintes tópicos:
+- **Open Source**: Filosofia e importância do código aberto.
+- **Licenças de Código Aberto**: Entendimento das licenças que definem o uso e compartilhamento do código.
+- **Issues**: Relato e resolução de problemas dentro de um projeto open source.
+- **Padrão de Commits**: Importância de escrever mensagens de commit claras e organizadas.
+- **Template para Issues**: Criação de templates para padronizar a abertura de issues.
+- **Fork e Configuração de Remote Upstream**: Processo de fazer um fork de um repositório e manter o código atualizado.
+- **Criação do README.md**: Importância da documentação clara do projeto.
+
+No final, compartilhamos o link para o repositório do desafio no GitHub.
+
+## 5. Conceitos Adicionais
+
+### SLA (Service Level Agreement)
+- **99,999% (5-nines)**: Menos de 5 minutos de indisponibilidade por ano. Oferece alta disponibilidade e confiabilidade.
+- **99%**: Até 7 dias de indisponibilidade por ano. Menos confiável com mais tempo fora do ar.
+
+### Opções de Disponibilidade
+- **Zonas de Disponibilidade**: Regiões físicas separadas dentro de uma mesma área. Protege contra falhas em datacenters inteiros e melhora a resiliência.
+- **Ícone 'i'**: Na tela de criação da máquina virtual, há um ícone de ajuda com informações sobre as opções de disponibilidade.
+
+### Replicação e Armazenamento
+- **Contas de Armazenamento**:
+  - **LRS (Locally Redundant Storage)**: Replica dados dentro de um datacenter. Opção básica e econômica.
+  - **ZRS (Zone-Redundant Storage)**: Replica dados em várias zonas de disponibilidade dentro de uma região. Protege contra falhas de datacenter.
+  - **GRS (Geo-Redundant Storage)**: Replica dados em uma região e em outra região distante. Protege contra falhas regionais.
+  - **GZRS (Geo-Zone-Redundant Storage)**: Combina replicação geográfica e por zonas para máxima proteção.
+
+### Considerações
+- **Orçamento**: Mais replicações e opções de alta disponibilidade aumentam o custo. Alinhe o orçamento com as necessidades de disponibilidade.
+- **Demandas**: Compreenda as necessidades da aplicação para escolher a solução de disponibilidade mais adequada.
+
+## 6. Simulação de Criação de Máquinas Virtuais
+- **Sistema Operacional**: Escolha da imagem e arquitetura.
+- **Previsibilidade de Valor/Mês**: Cálculo do custo mensal com base no tamanho da máquina.
+- **Adicionar Discos e Configurar Rede**: Inclusão de discos adicionais e configuração da rede.
+- **Gerenciamento e Segurança**: Aspectos relacionados ao gerenciamento e à segurança da máquina virtual.
+
+## 7. Simulação de Criação de Banco de Dados SQL
+- **Servidor e Localização**: Escolha do servidor e localização geográfica.
+- **Autenticação**: Configuração dos métodos de autenticação.
+- **Modelo de Redundância (SLA)**: Seleção do modelo de redundância apropriado.
+
+## 8. Cálculo de Custo Mensal
+- **Calculadora de Custo**: Utilização da ferramenta de cálculo para estimar o custo mensal com base nas opções selecionadas.
